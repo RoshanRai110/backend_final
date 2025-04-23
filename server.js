@@ -28,6 +28,7 @@ app.use("/api/products", productRoutes);
 app.use("/api/blogs", blogRoutes);
 app.use("/api", authRoutes);
 app.use("/api/slider", sliderRoutes);
+app.use("/api/popularProducts",popularProducts);
 
 mongoose.connect("mongodb+srv://sanviosystems110:Sanviosystems@cluster0.6y3htdv.mongodb.net/sanvioDB?retryWrites=true&w=majority&appName=Cluster0")
 
